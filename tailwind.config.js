@@ -3,9 +3,19 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      fontFamily:{
-        'public' : ['Public Sans', 'sans-serif'],
-      }
+      backgroundImage: {
+        "hero-pattern-dekstop": "url(./src/assets/bg-intro-desktop.svg)",
+        "hero-pattern-mobile": "url(./src/assets/bg-intro-mobile.svg)",
+        "hero-mockups" : "url(./src/assets/image-mockups.png)",
+
+      },
+      backgroundPosition: {
+        "custom-right": "right -20rem top -10rem",
+      },
+
+      fontFamily: {
+        public: ["Public Sans", "sans-serif"],
+      },
     },
   },
   plugins: [],
