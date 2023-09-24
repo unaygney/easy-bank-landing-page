@@ -31,14 +31,14 @@ function Main() {
             financial hub. Control your finances like never before.
           </p>
         </div>
-        <div className="flex flex-col  ">
+        <div className="flex flex-col mt-8 md:flex-row md:container md:mx-auto md:flex-wrap  ">
           {Contents.map((content) => (
-            <div key={content.id} className="flex flex-col items-center gap-4 mt-8 ">
+            <div key={content.id} className="md:flex-1 md:gap-8 flex flex-col items-center md:items-start gap-4 mt-8 ">
               <div className="w-[72px h-[72px] ">
               <img src={content.image} alt="" />
               </div>
               <h3 className="text-[#2D314D] font-light text-xl ">{content.title}</h3>
-              <p className="text-[#9597A5] text-sm leading-6 text-center" >{content.content}</p>
+              <p className="text-[#9597A5] text-sm leading-6 text-center md:text-start md:w-[45ch] " >{content.content}</p>
             </div>
           ))}
         </div>
