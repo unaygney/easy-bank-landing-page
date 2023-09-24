@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../Button";
 import Image from "../../assets/image-mockups.png";
+import { Contents } from "./constant";
 
 function Main() {
   return (
@@ -20,7 +21,28 @@ function Main() {
           </div>
         </section>
       </main>
-      <section className="w-full h-full  ">Ikıncı dıv</section>
+      <section className="w-full flex flex-col mt-10 px-6 bg-[#F4F5F7]  ">
+        <div className="flex flex-col gap-3 mt-16 ">
+          <h3 className="text-[#2d314d] text-center font-light text-[32px]">
+            Why chose EasyBank?
+          </h3>
+          <p className="text-[#9597A5] font-normal text-center  text-[15px]">
+            We leverage Open Banking to turn your bank account into your
+            financial hub. Control your finances like never before.
+          </p>
+        </div>
+        <div className="flex flex-col  ">
+          {Contents.map((content) => (
+            <div key={content.id} className="flex flex-col items-center gap-4 mt-8 ">
+              <div className="w-[72px h-[72px] ">
+              <img src={content.image} alt="" />
+              </div>
+              <h3 className="text-[#2D314D] font-light text-xl ">{content.title}</h3>
+              <p className="text-[#9597A5] text-sm leading-6 text-center" >{content.content}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
       <div className="absolute -top-16 right-0 md:-top-32  ">
         <img className="" src={Image} alt="" />
