@@ -23,9 +23,9 @@ function Articles() {
               <p className=" text-[#9597A5] text-[10px] font-normal leading-[18px] tracking-wide ">
                 {feature.writer}
               </p>
-              <h4 className="text-[#2D313D] text-base leading-5 tracking-wide font-light">
+              <a href="#" className="text-[#2D313D] text-base leading-5 tracking-wide font-light hover:text-[#30C88F]">
                 {feature.title}
-              </h4>
+              </a>
               <p className="text-[#9597A5] tracking-wide font-normal leading-[18px] text-[13px]">
                 {feature.content}
               </p>
