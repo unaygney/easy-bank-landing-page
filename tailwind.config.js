@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-pattern-dekstop": "url(./src/assets/bg-intro-desktop.svg)",
-        "hero-pattern-mobile": "url(./src/assets/bg-intro-mobile.svg)",
-        "hero-mockups" : "url(./src/assets/image-mockups.png)",
+        "hero-pattern-dekstop": "url(./assets/bg-intro-desktop.svg)",
+        "hero-pattern-mobile": "url(./assets/bg-intro-mobile.svg)",
+        "hero-mockups" : "url(./assets/image-mockups.png)",
 
       },
       backgroundPosition: {

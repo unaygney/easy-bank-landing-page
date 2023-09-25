@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/easybank-landing-page-with-react-and-tailwind-Uw4m1en9ei)
-- Live Site URL: [Live site URL here](https://6511a683e70eae39c8e9f381--voluble-semifreddo-4f142a.netlify.app/)
+- Live Site URL: [Live site URL here](https://voluble-semifreddo-4f142a.netlify.app/)
 
 ## My process
 
