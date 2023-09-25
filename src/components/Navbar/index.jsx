@@ -31,7 +31,7 @@ function Navbar() {
       {/* Links for Mobile */}
 
       <nav
-        className={`md:hidden absolute w-[90%] left-0 right-0 mx-auto bg-gray-500 rounded-md py-8 transition-transform duration-300 transform ${
+        className={`md:hidden absolute w-[90%] left-0 right-0 mx-auto bg-white rounded-md py-8 transition-transform duration-300 transform ${
           isActive ? "translate-y-44" : "-translate-y-full"
         }    `}
       >
