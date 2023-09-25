@@ -31,7 +31,7 @@ function Main() {
             financial hub. Control your finances like never before.
           </p>
         </div>
-        <div className="flex flex-col mt-8 md:flex-row md:container md:mx-auto md:flex-wrap  ">
+        <div className="flex flex-col mt-8 md:flex-row md:container md:mx-auto md:flex-wrap mb-14  ">
           {Contents.map((content) => (
             <div key={content.id} className="md:flex-1 md:gap-8 flex flex-col items-center md:items-start gap-4 mt-8 ">
               <div className="w-[72px h-[72px] ">
